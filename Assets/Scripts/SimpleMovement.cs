@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class ObjectController : MonoBehaviour
+public class SimpleMovement : MonoBehaviour
 {
     [SerializeField] private Transform outerShape;
     [SerializeField] private Transform innerShape;
